@@ -1,16 +1,20 @@
 //your JS code here. If required.
-document.addEventListener(DOMContentLoaded, functon(){
-	const squares = document.querySelectorAll('.square');
-	squares.forEach(square => {
-		square.addEventListener(mouseover, function() {
-			square.style.backgroundColor = '#3498db';
-		});
-		square.addEventListener(mouseout, function() {
-			setTimeout(()=>{
-				squares.style.backgroundColor = '#eee';
-			},1000);
-		});
-	});
+document.addEventListener('DOMContentLoaded', function() {
+    const squares = document.querySelectorAll('.square');
+    
+    squares.forEach(square => {
+        // Add mouseover event listener
+        square.addEventListener('mouseover', function() {
+            square.style.backgroundColor = '#3498db'; // Change to blue color on hover
+        });
+
+        // Add mouseout event listener
+        square.addEventListener('mouseout', function() {
+            setTimeout(() => {
+                square.style.backgroundColor = '#eee'; // Revert to grey after 1 second
+            }, 1000); // Delay of 1 second
+        });
+    });
 });
 
 /*
