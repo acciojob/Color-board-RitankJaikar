@@ -12,6 +12,10 @@ for(let i=1; i<10000; i++) {
 		square.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 	});
 	square.addEventListener("mouseleave", () => {
-		square.style.backgroundColor = 'rgb(29, 29, 29)';
+		 setTimeout(() => {
+	        square.style.backgroundColor = 'rgb(29, 29, 29)';
+	    }, 1000); // delay of 1 second
 	})
 }
+
+
