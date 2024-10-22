@@ -5,7 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     squares.forEach(square => {
         // Add mouseover event listener
         square.addEventListener('mouseover', function() {
-            square.style.backgroundColor = '#3498db'; // Change to blue color on hover
+            let r = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+			let g = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+			let b = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+			square.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
         });
 
         // Add mouseout event listener
