@@ -18,10 +18,11 @@ body {
 }
 
 .square {
-	background-color: rgb(29, 29, 29);
-	height: 16px;
-	width: 16px;
-	transition: background-color 1s linear;
+    background-color: rgb(29, 29, 29);
+    height: 16px;
+    width: 16px;
+    transition: background-color 1s linear;
+    margin: 2px;
 }
 
 .square:hover {
