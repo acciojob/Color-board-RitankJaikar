@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add mouseout event listener
         square.addEventListener('mouseout', function() {
             setTimeout(() => {
-                square.style.backgroundColor = '#eee'; // Revert to grey after 1 second
+                square.style.backgroundColor = 'rgb(29, 29, 29)'; // Revert to grey after 1 second
             }, 1000); // Delay of 1 second
         });
     });
