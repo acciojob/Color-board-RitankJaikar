@@ -12,6 +12,6 @@ for(let i=1; i<10000; i++) {
 		square.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 	});
 	square.addEventListener("mouseleave", () => {
-		square.style.backgroundColor = '#1d1d1d';
+		square.style.backgroundColor = 'rgb(29, 29, 29)';
 	})
 }
