@@ -16,7 +16,7 @@ body {
 	height: 94vh;
 	overflow: hidden;
 }
-/*
+
 .square {
 	background-color: rgb(29, 29, 29);
 	height: 16px;
@@ -27,17 +27,6 @@ body {
 .square:hover {
 	transition: background-color 0s linear;
 }
-*/
 
-.square {
-	background-color: white;
-	height: 16px;
-	width: 16px;
-	transition: background-color 1s linear;
-	margin: 2px;
-}
 
-.square:hover {
-	background-color: red;
-}
 
