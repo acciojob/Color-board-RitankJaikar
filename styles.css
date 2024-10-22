@@ -17,6 +17,10 @@ body {
 	overflow: hidden;
 }
 
+.square:hover {
+	transition: background-color 0s linear;
+}
+
 .square {
 	background-color: rgb(29, 29, 29);
 	height: 16px;
@@ -24,9 +28,6 @@ body {
 	transition: background-color 1s linear;
 }
 
-.square:hover {
-	transition: background-color 0s linear;
-}
 
 
 
