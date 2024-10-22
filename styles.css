@@ -1,5 +1,35 @@
 /*  your css code here. If applicable */
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: dimgray
+}
+
+.container {
+	display: grid;
+  grid-template-columns: repeat(40, 20px);
+  grid-template-rows: repeat(20, 20px);
+  gap: 2px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  transition: background-color 1s ease;
+}
+
+.square:hover {
+  background-color: #3498db;
+}
+
+
+/*  your css code here. If applicable */
+/*
+body {
 	background-color: black;
 	height: 96vh;
 	padding: 2vh;
@@ -27,7 +57,7 @@ body {
 	width: 16px;
 	transition: background-color 1s linear;
 }
-
+*/
 
 
 

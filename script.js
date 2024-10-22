@@ -1,4 +1,21 @@
 //your JS code here. If required.
+document.addEventListener(DOMContentLoaded, functon(){
+	const squares = document.querySelectorAll('.square');
+	squares.forEach(square => {
+		square.addEventListener(mouseover, function()
+								{
+									square.style.backgroundColor = '#3498db';
+								});
+		square.addEventListener(mouseout, function(){
+			setTimeout(()=>{
+				squares.style.backgroundColor = '#eee';
+			},1000);
+		});
+	});
+});
+
+/*
+//your JS code here. If required.
 const container = document.querySelector(".container");
 
 for(let i=1; i<10000; i++) {
@@ -17,5 +34,5 @@ for(let i=1; i<10000; i++) {
 	    }, 1000); // delay of 1 second
 	})
 }
-
+*/
 
